@@ -12,7 +12,7 @@
 }
 
 header{
-    background-color: lightblue;
+    background-color: #004c35;
 }
 
 nav{
@@ -36,7 +36,7 @@ a{
 }
 
 html, body {
-    background-color: lightgreen;
+    background-color: #fc0;
     height: 100%;
     margin: 0;
     display: flex;
@@ -53,22 +53,27 @@ main {
 
 /* Footer blijft altijd onderaan */
 footer {
-    background-color: red;
+    background-color: #004c35;
     padding: 10px;
     text-align: center;
 }
-
+a{
+    color: #fc0;
+    font-family: Fellix, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 a:hover {
     color: yellow;
   }
 
 .text{
     max-width: 600px;
+    font-family: Fellix, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .blokkensysteem{
-    /* border: 5px solid black;
-    max-width: 750px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .roosterpagina{
@@ -81,4 +86,21 @@ a:hover {
     width: 1400px;
     height: 1000px;
     margin: 50px;
+}
+
+.blokkenimg{
+    width: 1000px;
+    height: 700px;
+    margin: 50px;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+p{
+    font-family: Fellix, Helvetica Neue, Helvetica, Arial, sans-serif;
 }

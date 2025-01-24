@@ -46,12 +46,9 @@ html, body {
 /* Main vult de beschikbare ruimte */
 main {
     flex: 1;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center; /* Plaatst inhoud verticaal in het midden */
-    align-items: center;    /* Plaatst inhoud horizontaal in het midden */
-    text-align: center;
-    gap: 10px;
+    gap: 10px; */
 }
 
 /* Footer blijft altijd onderaan */
@@ -68,3 +65,12 @@ img{
 a:hover {
     color: yellow;
   }
+
+.text{
+    max-width: 750px;
+}
+
+.blokkensysteem{
+    border: 5px solid black;
+    max-width: 750px;
+}
